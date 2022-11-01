@@ -13,7 +13,7 @@ import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 @ExtendWith(SpringExtension.class)
 @SpringBootTest
-@AutoConfigureStubRunner(ids = { "eu.arima.tr:timeReports-producer:+:stubs:" })
+@AutoConfigureStubRunner(ids = { "eu.arima.tr:timeReports-producer:+:stubs:9092" })
 public class ReportsServiceContractTest {
 
 	@Autowired

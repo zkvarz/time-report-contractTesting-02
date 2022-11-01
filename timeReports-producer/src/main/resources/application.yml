@@ -9,4 +9,4 @@ spring:
       schema: classpath*:db/h2/schema.sql
       data: classpath*:db/h2/data.sql
       initialization-mode: always		
-server.port: 8081		
+server.port: 9092

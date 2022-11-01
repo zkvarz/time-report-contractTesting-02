@@ -6,4 +6,4 @@ spring:
    mvc:
       locale: en_EN
       locale-resolver: fixed
-server.url: http://localhost:8081
+server.url: http://localhost:9092
